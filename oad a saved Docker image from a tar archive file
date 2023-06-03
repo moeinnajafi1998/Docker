@@ -1,0 +1,4 @@
+Use the docker load -i command followed by the path to the tar archive file to load the image into Docker. For example:
+docker load -i myimage.tar
+This command imports the image from the tar archive file and makes it available in Docker on the target machine. The loaded image can then be used to run containers.
+
