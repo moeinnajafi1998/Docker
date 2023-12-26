@@ -1,0 +1,12 @@
+in path> docker load -i darb.tar
+
+
+docker run --rm -it -p 8000:8000 darb   
+note:darb is imnage's name
+
+
+or 
+
+
+docker run --rm -it -p 8000:8000 7953649491da   
+note:7953649491da is imnage's Id
